@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|c:\\users\\ksh\\documents\\github\\diablo_like_immi\\assets\\scripts\\ui\\uibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|c:\\users\\ksh\\documents\\github\\diablo_like_immi\\assets\\scripts\\ui\\ui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\assets\\scripts\\utils\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\assets\\scripts\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\assets\\scripts\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIBase.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UIBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIBase.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UIBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIBase.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:25:46.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UI_Button.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UI_Button.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_Button.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UI_Button.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_Button.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:02:18.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Controllers\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controllers\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Controllers\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controllers\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:12:42.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Util.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Utils\\Util.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Util.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Utils\\Util.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Util.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:45:48.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Managers\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\InputManager.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Managers\\InputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\InputManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T05:57:05.956Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
