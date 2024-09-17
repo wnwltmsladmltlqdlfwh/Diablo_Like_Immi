@@ -1,11 +1,10 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+using UnityEditor.PackageManager.Requests;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class UI_Button : UIBase
+public class UI_Button : UI_PopUp
 {
     enum Buttons
     {
@@ -23,12 +22,29 @@ public class UI_Button : UIBase
         TestObject,
     }
 
+    enum Images
+    {
+        ItemIcon,
+    }
+
     void Start()
     {
         Bind<Button>(typeof(Buttons));
         Bind<Text>(typeof(Texts));
         Bind<GameObject>(typeof(GameObjects));
+        Bind<Image>(typeof(Images));
 
         Get<Text>((int)Texts.ScoreText).text = "Bind Text";
+
+        GetButton((int)Buttons.PointButton).gameObject.AddUIEvent(OnButtonClick);
+
+        GameObject go = GetImage((int)Images.ItemIcon).gameObject;
+
+        AddUIEvent(go, (PointerEventData data) => { go.transform.position = data.position; }, Define.UIEvent.Drag);
+    }
+
+    public void OnButtonClick(PointerEventData data)
+    {
+        Debug.Log("클릭 버튼");
     }
 }

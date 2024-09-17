@@ -363,9 +363,13 @@
 "Assets/Scripts/Managers/Managers.cs"
 "Assets/Scripts/Managers/ResourceManager.cs"
 "Assets/Scripts/Managers/Singleton.cs"
-"Assets/Scripts/UI/UIBase.cs"
+"Assets/Scripts/UI/PopUp/UI_PopUp.cs"
+"Assets/Scripts/UI/Scene/UI_Scene.cs"
+"Assets/Scripts/UI/UI_Base.cs"
 "Assets/Scripts/UI/UI_Button.cs"
+"Assets/Scripts/UI/UI_EventHandler.cs"
 "Assets/Scripts/Utils/Define.cs"
+"Assets/Scripts/Utils/Extension.cs"
 "Assets/Scripts/Utils/Util.cs"
 -langversion:9.0
 /deterministic

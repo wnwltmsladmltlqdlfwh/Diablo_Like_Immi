@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|c:\\users\\ksh\\documents\\github\\diablo_like_immi\\assets\\scripts\\ui\\uibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\assets\\scripts\\ui\\ui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|c:\\users\\ksh\\documents\\github\\diablo_like_immi\\assets\\scripts\\ui\\ui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|c:\\users\\ksh\\documents\\github\\diablo_like_immi\\assets\\scripts\\ui\\scene\\ui_scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\scene\\ui_scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|c:\\users\\ksh\\documents\\github\\diablo_like_immi\\assets\\scripts\\ui\\popup\\ui_popup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\popup\\ui_popup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|c:\\users\\ksh\\documents\\github\\diablo_like_immi\\assets\\scripts\\ui\\ui_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\assets\\scripts\\ui\\ui_eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\assets\\scripts\\utils\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\assets\\scripts\\utils\\define.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\define.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65C5301A-7AE1-F257-4589-9C21C650D2FC}|Assembly-CSharp.csproj|C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\assets\\scripts\\utils\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,62 +50,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UIBase.cs",
-              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UIBase.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIBase.cs",
-              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UIBase.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UIBase.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAmwA8AAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "UI_Scene.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\Scene\\UI_Scene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Scene\\UI_Scene.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\Scene\\UI_Scene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Scene\\UI_Scene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:47:35.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UI_PopUp.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\PopUp\\UI_PopUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PopUp\\UI_PopUp.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\PopUp\\UI_PopUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\PopUp\\UI_PopUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:46:52.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Extension.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Utils\\Extension.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Extension.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Utils\\Extension.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Extension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:38:41.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Define.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Utils\\Define.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Define.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Utils\\Define.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\Define.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:26:21.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UI_EventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UI_EventHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_EventHandler.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UI_EventHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_EventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T07:55:58.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UI_Base.cs",
+              "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UI_Base.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_Base.cs",
+              "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UI_Base.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_Base.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T07:25:46.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UI_Button.cs",
               "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UI_Button.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_Button.cs",
               "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\UI\\UI_Button.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\UI_Button.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBkAAAAQAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T06:02:18.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controllers\\PlayerController.cs",
               "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Controllers\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controllers\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAARAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwBcAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T07:12:42.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Util.cs",
               "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Utils\\Util.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Util.cs",
               "ToolTip": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Utils\\Util.cs",
               "RelativeToolTip": "Assets\\Scripts\\Utils\\Util.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T06:45:48.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T06:45:48.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\KSH\\Documents\\GitHub\\Diablo_Like_Immi\\Assets\\Scripts\\Managers\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\InputManager.cs",
