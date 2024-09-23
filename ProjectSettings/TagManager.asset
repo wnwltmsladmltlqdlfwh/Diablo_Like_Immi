@@ -14,8 +14,8 @@ TagManager:
   - 
   - 
   - Monster
-  - Wall
-  - 
+  - Moveable
+  - Block
   - 
   - 
   - 

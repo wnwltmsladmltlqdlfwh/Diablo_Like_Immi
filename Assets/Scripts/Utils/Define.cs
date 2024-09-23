@@ -4,6 +4,43 @@ using UnityEngine;
 
 public class Define
 {
+    public enum WolrdObject
+    {
+        Unknown,
+        Player,
+        Monster,
+    }
+
+    public enum State
+    {
+        Die,
+        Moving,
+        Idle,
+        Skill
+    }
+
+    public enum Layer
+    {
+        Monster = 8,
+        Moveable = 9,
+        Block = 10,
+    }
+
+    public enum Scene
+    {
+        Unknown,
+        Login,
+        Lobby,
+        Game
+    }
+
+    public enum Sound
+    {
+        Bgm,
+        Effect,
+        MaxCount,
+    }
+
     public enum UIEvent
     {
         Click,
@@ -13,7 +50,9 @@ public class Define
     public enum MouseEvent
     {
         Press,
-        Click
+        PointerDown,
+        PointerUp,
+        Click,
     }
 
     public enum CameraMode

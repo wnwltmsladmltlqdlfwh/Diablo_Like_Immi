@@ -13,6 +13,11 @@ public class CameraController : MonoBehaviour
     [SerializeField]
     GameObject _player = null;
 
+    public void SetPlayer(GameObject player)
+    {
+        _player = player;
+    }
+
     void Start()
     {
         
@@ -23,8 +28,13 @@ public class CameraController : MonoBehaviour
         // 플레이어의 움직임과 동시에 카메라가 이동하므로, 플레이어가 이동 후 카메라가 움직이도록 한다.
         if (_mode == Define.CameraMode.QuterView)
         {
+            if(_player.IsVaild() == false)
+            {
+                return;
+            }
+
             RaycastHit hit;
-            if(Physics.Raycast(_player.transform.position, _delta, out hit, _delta.magnitude, LayerMask.GetMask("Wall")))
+            if(Physics.Raycast(_player.transform.position, _delta, out hit, _delta.magnitude, 1 << (int)Define.Layer.Block))
             {
                 float dist = (hit.point - _player.transform.position).magnitude * 0.8f;
                 transform.position = _player.transform.position + _delta.normalized * dist;

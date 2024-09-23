@@ -1,0 +1,2015 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.31f1 (4ede2d13e8b4) revision 5168685'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 32689 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/ksh33/Documents/Diablo_Like
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+10970
+Successfully changed project path to: C:/Users/ksh33/Documents/Diablo_Like
+C:/Users/ksh33/Documents/Diablo_Like
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25308] Host "[IP] 219.250.92.234 [Port] 0 [Flags] 2 [Guid] 619684341 [EditorId] 619684341 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8G1KIGE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25308] Host "[IP] 219.250.92.234 [Port] 0 [Flags] 2 [Guid] 619684341 [EditorId] 619684341 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8G1KIGE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 23.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ksh33/Documents/Diablo_Like/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12243 MB
+    Driver:   31.0.24027.1012
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.31f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.3.31f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009652 seconds.
+- Loaded All Assemblies, in  0.375 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 471 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.827 seconds
+Domain Reload Profiling: 1201ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (827ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (767ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (585ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.112 seconds
+Refreshing native plugins compatible for Editor in 6.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.686 seconds
+Domain Reload Profiling: 1795ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (857ms)
+		LoadAssemblies (780ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (149ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (687ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (534ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (58.1 KB). Loaded Objects now: 3788.
+Memory consumption went from 150.4 MB to 150.3 MB.
+Total: 2.671200 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.271000 ms  DeleteObjects: 0.105600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/Data Contents.cs: 70fcd18e6499f4e15489d8658a1aceeb -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DataManager.cs: 43309d5940a3d28aba509953c92a90de -> 8248ca36f455461933c3e0ca635b8826
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 718227.111966 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_stairs_v02_01.fbx
+  artifactKey: Guid(5f1c470010e5f9343ab9e1f3a5bd0ab9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_stairs_v02_01.fbx using Guid(5f1c470010e5f9343ab9e1f3a5bd0ab9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28f327cf86c0690085486d367e25a338') in 0.132549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_windmill_sail.prefab
+  artifactKey: Guid(f3dbc511a3f0e8a4e88e4dd19495bb75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_windmill_sail.prefab using Guid(f3dbc511a3f0e8a4e88e4dd19495bb75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'beb225bc23225486fdd5111085da5743') in 0.012511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_watermelon_03.prefab
+  artifactKey: Guid(80ce41945de06814891faa9e03d91cf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_watermelon_03.prefab using Guid(80ce41945de06814891faa9e03d91cf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '445a72b933acf822b369a7b0b4d39b79') in 0.014581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_pumpkin_01.prefab
+  artifactKey: Guid(9d467d21ac06a5a4185d60cd738a298c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_pumpkin_01.prefab using Guid(9d467d21ac06a5a4185d60cd738a298c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf1298d3530b59eba5abe2457d5e52c1') in 0.019263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_PLANT_pot_v6_01.prefab
+  artifactKey: Guid(dee399c23911a0642904a5ba7c8ffbcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_PLANT_pot_v6_01.prefab using Guid(dee399c23911a0642904a5ba7c8ffbcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d0b2c508ded16e3baa743550bb3304e') in 0.028167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_sausage_01.fbx
+  artifactKey: Guid(ea37fe222b889bb4592140b1796846d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_sausage_01.fbx using Guid(ea37fe222b889bb4592140b1796846d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd15a1a8d910576d8b15d0f7a30400eac') in 0.026034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_stepladder.prefab
+  artifactKey: Guid(7751d3513e0511246b6941424c152269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_stepladder.prefab using Guid(7751d3513e0511246b6941424c152269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71c1c425316949b5da19fecb20668957') in 0.018799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_fence_v02_04.fbx
+  artifactKey: Guid(4aac4266a8627a748bd26166ddb39af1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_fence_v02_04.fbx using Guid(4aac4266a8627a748bd26166ddb39af1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c53c1d2246a79ca067327200e3292ecc') in 0.022689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_cheese_02.prefab
+  artifactKey: Guid(b8154311b645e9f4aa021535a2e7f699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_cheese_02.prefab using Guid(b8154311b645e9f4aa021535a2e7f699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd26e182de4d1b6febd8b5d6bedc205f5') in 0.016782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_bowl_wood_02.fbx
+  artifactKey: Guid(42eb87bdfcc36664b95f75678911e19f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_bowl_wood_02.fbx using Guid(42eb87bdfcc36664b95f75678911e19f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11c6be2586674c76ee0e60d81eb5d350') in 0.025662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_trough_01.prefab
+  artifactKey: Guid(fd73157d1c283de4797127fb6af8cb45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_trough_01.prefab using Guid(fd73157d1c283de4797127fb6af8cb45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f0505efc10e178cf04f6e9606d3101f7') in 0.018500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_foundation_wood_05.prefab
+  artifactKey: Guid(0d4af62435304f64f9707e01117d9b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_foundation_wood_05.prefab using Guid(0d4af62435304f64f9707e01117d9b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eba46e0839e61a174b46a5c1f4da14fd') in 0.018063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_mushroom_02.prefab
+  artifactKey: Guid(20b810aa61b187f42a2c60eb2a326da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_mushroom_02.prefab using Guid(20b810aa61b187f42a2c60eb2a326da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '732e6eae4715e5371e629d1345af1bd5') in 0.014448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_base_v03_01.prefab
+  artifactKey: Guid(c06c4518c8b1058459589dcaf43988a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_base_v03_01.prefab using Guid(c06c4518c8b1058459589dcaf43988a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1239372bc62a16cbce38b34ab3f683cb') in 0.020583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/environment
+  artifactKey: Guid(a1eb9b91251bded44b79a3b15f7483a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/environment using Guid(a1eb9b91251bded44b79a3b15f7483a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34e0c6bad5d07cf181ed59bb1777fcbc') in 0.010386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_wood_planks_04_BC.png
+  artifactKey: Guid(9f02e2ba88fda4745b349b20d30f0068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_wood_planks_04_BC.png using Guid(9f02e2ba88fda4745b349b20d30f0068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9a70cda761b2a000edfc74cc01512b91') in 0.063179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/FX/P_FX_steam_big_FVP.prefab
+  artifactKey: Guid(9ece5b1a8c16cec42b0bf624c20d0c88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/FX/P_FX_steam_big_FVP.prefab using Guid(9ece5b1a8c16cec42b0bf624c20d0c88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0a44ba3bf23754b5422cda46823a9ca') in 0.029555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_base_v04_01_Collision.fbx
+  artifactKey: Guid(4f251c0aa76045049b6f89a6a57afb66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_base_v04_01_Collision.fbx using Guid(4f251c0aa76045049b6f89a6a57afb66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '292668ae49cc590345eb5b63ae8439e2') in 0.033922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_fence_v04_01.fbx
+  artifactKey: Guid(58cd17d18b4076e4e9b67d28a8c9b7c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_fence_v04_01.fbx using Guid(58cd17d18b4076e4e9b67d28a8c9b7c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '446a25bce8b3085e4f95cd8ff32f22ba') in 0.034677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v2_04.fbx
+  artifactKey: Guid(7c134fcd22ef5d443994a1b29559b960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v2_04.fbx using Guid(7c134fcd22ef5d443994a1b29559b960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed396a461da3d3c2f5d74b2490bfbd58') in 0.053707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_chili_03.prefab
+  artifactKey: Guid(62dd4c53e4a858e4bb222af2b70c3b38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_chili_03.prefab using Guid(62dd4c53e4a858e4bb222af2b70c3b38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd8522acec4c20cb56c4dff58cbb1c927') in 0.021521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_barrel_05.prefab
+  artifactKey: Guid(4058c7f8dd5c0c14d9bf6d69ed7affed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_barrel_05.prefab using Guid(4058c7f8dd5c0c14d9bf6d69ed7affed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd6c8195889f0309f112414cbf93b79ea') in 0.025584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_bridge_stone_01.prefab
+  artifactKey: Guid(1d391866cd64ad340aff8f1e9e6faa73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_bridge_stone_01.prefab using Guid(1d391866cd64ad340aff8f1e9e6faa73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b57f087afaeafe833ad1206398e260ec') in 0.024784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_sack_06.fbx
+  artifactKey: Guid(eea3179a34ea8414fa99c4f077cb049b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_sack_06.fbx using Guid(eea3179a34ea8414fa99c4f077cb049b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36cdbbe650cce9115a08625fe72448d1') in 0.044798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_window_v06_02.fbx
+  artifactKey: Guid(ae9413931787362418a497944343e62f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_window_v06_02.fbx using Guid(ae9413931787362418a497944343e62f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f09052f45a6f5ae88a23daa4902d689') in 0.030376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_window_v07_01.prefab
+  artifactKey: Guid(9b11a5c28a631754bb0c3ef621c11d23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_window_v07_01.prefab using Guid(9b11a5c28a631754bb0c3ef621c11d23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a471004b8b83dee577ce78540335bfe3') in 0.027468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_brazier_01.fbx
+  artifactKey: Guid(b358096071ac52543bb184e75c0e8be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_brazier_01.fbx using Guid(b358096071ac52543bb184e75c0e8be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '730067b363f1292d20743ffea9341725') in 0.028841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_body_v01_02.prefab
+  artifactKey: Guid(a514c94cf353e72459708271adb91b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_body_v01_02.prefab using Guid(a514c94cf353e72459708271adb91b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92b1d4b79fc406147ab7e38b4a0aec28') in 0.023622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_stairs_v02_02_Collision.fbx
+  artifactKey: Guid(6f2cec6802e5c5d4b81c32ea77e151ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_stairs_v02_02_Collision.fbx using Guid(6f2cec6802e5c5d4b81c32ea77e151ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'daddfe34ff9f42e165472b6bcd402886') in 0.024335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_walkway_wood.fbx
+  artifactKey: Guid(77d2c5cfa42f27d469d99ba21d768a9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_walkway_wood.fbx using Guid(77d2c5cfa42f27d469d99ba21d768a9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '223f8b46a47dce28144a119b6457a679') in 0.028432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_ENV_TERRAIN_gravel_01_N.png
+  artifactKey: Guid(14bfede1acb43184285cf516adcc1986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_ENV_TERRAIN_gravel_01_N.png using Guid(14bfede1acb43184285cf516adcc1986) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ddced169544c2e914e0bae1b27f1c9b3') in 0.029884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v5_01.fbx
+  artifactKey: Guid(3f7ec14c8688d2142b5e22a2894cfaa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v5_01.fbx using Guid(3f7ec14c8688d2142b5e22a2894cfaa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34d61c4e6065317c03b9a07703b4723a') in 0.033230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/environment/P_ENV_PLANT_grass_village.prefab
+  artifactKey: Guid(164734044aef0a946be0b27e20c63321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/environment/P_ENV_PLANT_grass_village.prefab using Guid(164734044aef0a946be0b27e20c63321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '27a6ea43dc934315b3b143bf0f15bb83') in 0.018338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_stairs_wood_03.prefab
+  artifactKey: Guid(7a6df868b476b564eb309deb429d561a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_stairs_wood_03.prefab using Guid(7a6df868b476b564eb309deb429d561a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3dede6f4d9c9d9b01a7079a096030a04') in 0.016717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_flag_02.prefab
+  artifactKey: Guid(d01a9e34ac4d742469eb09605cee6395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_flag_02.prefab using Guid(d01a9e34ac4d742469eb09605cee6395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2014042b55f473a414e7fc43cfdd3ce3') in 0.017669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_knife_02.prefab
+  artifactKey: Guid(d93e961216dc91944b96755ad5ea0e34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_knife_02.prefab using Guid(d93e961216dc91944b96755ad5ea0e34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e54a811081795de48ea147abdf4e5f34') in 0.016937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_broccoli.prefab
+  artifactKey: Guid(6174f21ae4cc6784ab6f2cd43cce7b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_broccoli.prefab using Guid(6174f21ae4cc6784ab6f2cd43cce7b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fff8ecacaf4809318f7a438185c4b648') in 0.017610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_fence_v02_02.fbx
+  artifactKey: Guid(d888d09d0b5ecde4f812f3829904d3d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_fence_v02_02.fbx using Guid(d888d09d0b5ecde4f812f3829904d3d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f649ce636b28984bf745c57e441facba') in 0.024231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_mushroom_01.prefab
+  artifactKey: Guid(a20f42271a567c14489957780dc5b901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_mushroom_01.prefab using Guid(a20f42271a567c14489957780dc5b901) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bca846f9de24672be6397f5f64da6d98') in 0.017837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_body_v03_Collision.fbx
+  artifactKey: Guid(f7a3fa7b2b781a04db53491b38a28384) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_body_v03_Collision.fbx using Guid(f7a3fa7b2b781a04db53491b38a28384) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ea2298f60abf0c8330d2f2ee8ea4328') in 0.022345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_window_v09_02_Collision.fbx
+  artifactKey: Guid(8bfee5129c9b3ea44a83512d5fb2e9ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_window_v09_02_Collision.fbx using Guid(8bfee5129c9b3ea44a83512d5fb2e9ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b76b15513b412f8771c01f3b4845f72') in 0.025439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_fish_01.fbx
+  artifactKey: Guid(fdbc0dbaaa9f4ac4b8d12cfd2acea7f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_fish_01.fbx using Guid(fdbc0dbaaa9f4ac4b8d12cfd2acea7f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c16690f9a34ace35309d463afe3a6451') in 0.027201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_chair_02.prefab
+  artifactKey: Guid(2d97a38a89a1473489335baf0026df3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_chair_02.prefab using Guid(2d97a38a89a1473489335baf0026df3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8be8abd1951feccc1d2d0082d8a5db5') in 0.020175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_PROP_barrel_Collision.fbx
+  artifactKey: Guid(d680bca6479ae5f408cd2255610815d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_PROP_barrel_Collision.fbx using Guid(d680bca6479ae5f408cd2255610815d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e7fda2971a331d2d11b2ce1f31f592b') in 0.025650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_meat_07.fbx
+  artifactKey: Guid(3d124e8144bf3274b8aca97fa9a7c3b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_meat_07.fbx using Guid(3d124e8144bf3274b8aca97fa9a7c3b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c9ed96478b7b595cb00a2d6b4933cd13') in 0.022946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings/P_BLD_house_09.prefab
+  artifactKey: Guid(8c97304454c685d43ae9ddde52a74b0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings/P_BLD_house_09.prefab using Guid(8c97304454c685d43ae9ddde52a74b0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51f14dd655d4ee7a8270bef0aca25f23') in 0.017986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_meat_04.prefab
+  artifactKey: Guid(9c933cee8607161489e2e79d2eb91fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_meat_04.prefab using Guid(9c933cee8607161489e2e79d2eb91fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05dc5e12f7f281dc25ced9ad53d5e0e6') in 0.017484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_PROP_signpost.png
+  artifactKey: Guid(26089f513ba50004eacd905f45667e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_PROP_signpost.png using Guid(26089f513ba50004eacd905f45667e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c35eb985de35876683017caf3bbf3875') in 0.022616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_weathervane.prefab
+  artifactKey: Guid(382b026d3970f7b48bf6fb378169d9cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_weathervane.prefab using Guid(382b026d3970f7b48bf6fb378169d9cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7110ab10b4bf2b55a3456dac96c87aa0') in 0.018499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_cart_02.fbx
+  artifactKey: Guid(80d68b083c6124f40a14bf1d38b72640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_cart_02.fbx using Guid(80d68b083c6124f40a14bf1d38b72640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cfb184d98ba4ebf15b1b2aeaff3b614f') in 0.032324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_railing_v03_02.fbx
+  artifactKey: Guid(4d8f92283eb13a44c8cc655697ee037f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_railing_v03_02.fbx using Guid(4d8f92283eb13a44c8cc655697ee037f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1f926ab6b93e1649277a57b65f442dc6') in 0.030874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_paper_01.prefab
+  artifactKey: Guid(f2b378517f9407f4eb6bb3d9f4cbd47f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_paper_01.prefab using Guid(f2b378517f9407f4eb6bb3d9f4cbd47f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ebb5ce0787dc0eb8609acb58dec6c38') in 0.019526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_PROP_rowboat_paddle_01_Collision.fbx
+  artifactKey: Guid(2d02856e1c54b5046a815715e0500bd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_PROP_rowboat_paddle_01_Collision.fbx using Guid(2d02856e1c54b5046a815715e0500bd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03c8588e6f63d1b69806f01b8949611f') in 0.028319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_barrel_04.fbx
+  artifactKey: Guid(a9cb9d8c93ddc0b45afca3f96c39423b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_barrel_04.fbx using Guid(a9cb9d8c93ddc0b45afca3f96c39423b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b08832ecdc74367f57959e13464e4cd') in 0.022040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_ENV_stone_N.png
+  artifactKey: Guid(04c81955fcd3be44a997000f1adf845a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_ENV_stone_N.png using Guid(04c81955fcd3be44a997000f1adf845a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b5109324774c8563de17abca96d6e91a') in 0.022112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/materials/M_leather.mat
+  artifactKey: Guid(f85f7d6ad5746d048bdea850ba47d32c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/materials/M_leather.mat using Guid(f85f7d6ad5746d048bdea850ba47d32c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6f651f1c2e646a9fc3b9ee43513fcbff') in 0.016015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_flag_05.fbx
+  artifactKey: Guid(7f44d0e19423ba747931274aeca660d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_flag_05.fbx using Guid(7f44d0e19423ba747931274aeca660d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5754399a57f403e2b7ba2213933263a8') in 0.030026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/scenes/demoscene_village_day.unity
+  artifactKey: Guid(bd65a1548188fa848a1e8683a948263d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/scenes/demoscene_village_day.unity using Guid(bd65a1548188fa848a1e8683a948263d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '528bc8772c06f52fb661ff2a00d848ab') in 0.010168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_lantern_04.prefab
+  artifactKey: Guid(070255671461c7645886ed4f04484ed5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_lantern_04.prefab using Guid(070255671461c7645886ed4f04484ed5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9fc8b95506c25c73f44b82d2d72b9379') in 0.018970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v2_01.fbx
+  artifactKey: Guid(ea50048dffb313b47b663f52a433797b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v2_01.fbx using Guid(ea50048dffb313b47b663f52a433797b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '49071906d499d67d03d35590815b230c') in 0.032291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_meat_02.prefab
+  artifactKey: Guid(03af79d3e0a19ac419bfabc87a5ce3e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_meat_02.prefab using Guid(03af79d3e0a19ac419bfabc87a5ce3e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4e10424cc8a705dc1aed345f4899603') in 0.016977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_stairs_wood_02.prefab
+  artifactKey: Guid(05e9ceeac19225a4d9daa55ffd684bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_stairs_wood_02.prefab using Guid(05e9ceeac19225a4d9daa55ffd684bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d5dfb7f4e768ebc5bf8fabf3828c9bd') in 0.017498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_stone_02.prefab
+  artifactKey: Guid(3d3659277aa894541b418a35040b965c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_stone_02.prefab using Guid(3d3659277aa894541b418a35040b965c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13a0777fdeedd66ca1734f92f82a1882') in 0.019726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_sack_08.prefab
+  artifactKey: Guid(2fdbc7526ea037d40a84664653ed508f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_sack_08.prefab using Guid(2fdbc7526ea037d40a84664653ed508f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f4b01551d8ba9d3fff8b554d455a7697') in 0.019481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_beam_small_v07_01.prefab
+  artifactKey: Guid(6e6c982d85bf2764b89a1a891f23464a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_beam_small_v07_01.prefab using Guid(6e6c982d85bf2764b89a1a891f23464a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ab992c1a2f3d463aa08bb6aaf513375') in 0.020761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_grapes_01.fbx
+  artifactKey: Guid(24b506a1dc9f2164ca56c5aebeb8cf6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_grapes_01.fbx using Guid(24b506a1dc9f2164ca56c5aebeb8cf6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1b53c42dd6144a9283e29270ab4a632') in 0.025404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_bottle_01.prefab
+  artifactKey: Guid(6847eb46affb403428b3318ca1c16b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_bottle_01.prefab using Guid(6847eb46affb403428b3318ca1c16b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a61166d23fb4026426f1b612ea9a786') in 0.017303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/shaders/S_foliage_wind_standard_simple_lit.shader
+  artifactKey: Guid(6554f7f81aa56d5409db78d05ad5cbb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/shaders/S_foliage_wind_standard_simple_lit.shader using Guid(6554f7f81aa56d5409db78d05ad5cbb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7f9c84396a08da85225e17f8971b18a9') in 0.014262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_bread_02.fbx
+  artifactKey: Guid(35701b325fbf8e24f9dd4fed87b03082) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_bread_02.fbx using Guid(35701b325fbf8e24f9dd4fed87b03082) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a05ce1a5e8612765d2a5bff21cf028b') in 0.024177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_PROP_wall_wood_gate_door_R_Collision.fbx
+  artifactKey: Guid(82f3b8267512f2142af683719213e0ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_PROP_wall_wood_gate_door_R_Collision.fbx using Guid(82f3b8267512f2142af683719213e0ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51891219f7d2dd946c194257210e89c5') in 0.022294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_bread_03.fbx
+  artifactKey: Guid(761598aa6b5bc7145bc5661cf9acab46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_bread_03.fbx using Guid(761598aa6b5bc7145bc5661cf9acab46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '471c814670319ee17a1f111d10b99f1a') in 0.028490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings/P_BLD_house_14.prefab
+  artifactKey: Guid(50ecca85cbe99874495e85667b0ef7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings/P_BLD_house_14.prefab using Guid(50ecca85cbe99874495e85667b0ef7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68c2dd76282738e6e1de831f12185bce') in 0.013450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_PROP_coffin_lid_Collision.fbx
+  artifactKey: Guid(bbc421bf0b0f59c4cbbc99f2abac0fd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_PROP_coffin_lid_Collision.fbx using Guid(bbc421bf0b0f59c4cbbc99f2abac0fd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'db6bab9a751840fe669dd175c1238c4e') in 0.022228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_base_v05_01.prefab
+  artifactKey: Guid(d959f8f2a6a3d0e448d2d8abeaf1a98a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_base_v05_01.prefab using Guid(d959f8f2a6a3d0e448d2d8abeaf1a98a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c497fa165cd7d5d660ea024d43b71ac9') in 0.021497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_stairs_wood_01.prefab
+  artifactKey: Guid(b1c872c8ebc1c2749a0d58985434a2c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_stairs_wood_01.prefab using Guid(b1c872c8ebc1c2749a0d58985434a2c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a9b40a5fa16091a2d8e4eb7601f55d6b') in 0.020239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_egg_01.fbx
+  artifactKey: Guid(a929338e462094f44a60d5f393ea74ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_egg_01.fbx using Guid(a929338e462094f44a60d5f393ea74ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '626034ebf68890858a2257b4552c8818') in 0.025280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_flag_01.fbx
+  artifactKey: Guid(097af0073519ec0489b4b07304035f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_flag_01.fbx using Guid(097af0073519ec0489b4b07304035f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '77a1ffed23f02804a4544f753c324280') in 0.032995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_body_add_v04_01_Collision.fbx
+  artifactKey: Guid(f11284cc660c81643a1a76fc32e6a712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_body_add_v04_01_Collision.fbx using Guid(f11284cc660c81643a1a76fc32e6a712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9da66832ce6e1130e512e5bcc647dac0') in 0.021791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_PROP_pitchfork_Collision.fbx
+  artifactKey: Guid(bb274df3a56a02545bbc40b23981080b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_PROP_pitchfork_Collision.fbx using Guid(bb274df3a56a02545bbc40b23981080b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9124b1e91cf29c4ff3814eed2d9c0844') in 0.024663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_salad.prefab
+  artifactKey: Guid(831afb7b79d0c2b46a64e4dafdbf8ea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_salad.prefab using Guid(831afb7b79d0c2b46a64e4dafdbf8ea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a0094cafe09cbad1ed4d9d7d4b9400c') in 0.014173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_beam_big_v01_Collision.fbx
+  artifactKey: Guid(9770888a5622da146b49f07fa9563076) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_beam_big_v01_Collision.fbx using Guid(9770888a5622da146b49f07fa9563076) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '52c7c26e90c723b140712f17293a050e') in 0.021555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_chimney_v02_02.fbx
+  artifactKey: Guid(2a7d3e34a12e3ee488206c4203db8127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_chimney_v02_02.fbx using Guid(2a7d3e34a12e3ee488206c4203db8127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0fd083527600251037c6b5a6fb4aaadc') in 0.021318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_bread_06.fbx
+  artifactKey: Guid(c3ccf02e1ca7b1f47827f0d6eade650c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_bread_06.fbx using Guid(c3ccf02e1ca7b1f47827f0d6eade650c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4fa4686787d1355f4be845a8d7ea55c4') in 0.029846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v2_03.fbx
+  artifactKey: Guid(2f311f145c25ffc4f84ddf365b5dc980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v2_03.fbx using Guid(2f311f145c25ffc4f84ddf365b5dc980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e19b96a1bf513577c9bd761d468e7d34') in 0.036693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_wall_wood_corner_02.fbx
+  artifactKey: Guid(ebb4fb2dcebb89a4b96da33adb90a35e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_wall_wood_corner_02.fbx using Guid(ebb4fb2dcebb89a4b96da33adb90a35e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '37d4f920c9e84351cff6213093041a2b') in 0.022420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_spoon_02.fbx
+  artifactKey: Guid(3196772257e3a9740b73dfc47e3b675a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_spoon_02.fbx using Guid(3196772257e3a9740b73dfc47e3b675a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6bb0abb6364b5414774dd877913e773c') in 0.024728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_bottle_07.prefab
+  artifactKey: Guid(efdb19f496c434a48b35c70ed5dd90a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_bottle_07.prefab using Guid(efdb19f496c434a48b35c70ed5dd90a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fdef2fd610b67ad2e8e443848b0640b3') in 0.020600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_FX_sprite_fire_village_BC.png
+  artifactKey: Guid(994bc6576f3f44d4d9545e7cb802c2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_FX_sprite_fire_village_BC.png using Guid(994bc6576f3f44d4d9545e7cb802c2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f708574b10a257f13a491b03c14dcb1d') in 0.027666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_base_v04_01.prefab
+  artifactKey: Guid(0d6f84980e7e25f4799e9f9f2307d862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_base_v04_01.prefab using Guid(0d6f84980e7e25f4799e9f9f2307d862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd6bbcdd6c495d2714df2095277251f34') in 0.018721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_sausage_02.prefab
+  artifactKey: Guid(e7f8bf207547ef540835a9926f0cbdb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_sausage_02.prefab using Guid(e7f8bf207547ef540835a9926f0cbdb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2fd2a5264cb635379d848d72642b16a') in 0.016354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_balcony_v01_01.prefab
+  artifactKey: Guid(0f0a40d05a9a0f2458218fb0efa722e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_balcony_v01_01.prefab using Guid(0f0a40d05a9a0f2458218fb0efa722e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36f63d40c000d5098797bfad0a651f9a') in 0.024648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_PROP_wall_wood_gate_frame_02_Collision.fbx
+  artifactKey: Guid(b9ab10688013a074eac66a6981bab26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_PROP_wall_wood_gate_frame_02_Collision.fbx using Guid(b9ab10688013a074eac66a6981bab26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd06e87bf2c38f1f875d5fc43a897b41') in 0.038329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_market_v01_01.prefab
+  artifactKey: Guid(d3facbed16a1da248b356bc949ea54e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_market_v01_01.prefab using Guid(d3facbed16a1da248b356bc949ea54e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9714f2727d22e4f66fc1d3fc979aca0b') in 0.030432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_PLANT_pot_v1_04.prefab
+  artifactKey: Guid(c7db634c190b67c41bf67a6df50300b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_PLANT_pot_v1_04.prefab using Guid(c7db634c190b67c41bf67a6df50300b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b7310deb5efecf02f352740fa4ebf97') in 0.031948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v3_04.fbx
+  artifactKey: Guid(199b6637aa4186b4399a1b567533e4be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v3_04.fbx using Guid(199b6637aa4186b4399a1b567533e4be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '01ec1fb0b3d4211c3e7046903af0c027') in 0.045686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_planks_03.fbx
+  artifactKey: Guid(c55c5303a1ebccc4e99783eb31cf2fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_planks_03.fbx using Guid(c55c5303a1ebccc4e99783eb31cf2fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c40f921c239d883cd322535129e5838') in 0.025823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_beam_small_v04_01.fbx
+  artifactKey: Guid(b3a9dfe46c87e0c4a80638d323f04d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_beam_small_v04_01.fbx using Guid(b3a9dfe46c87e0c4a80638d323f04d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9dce289080f6ef48d9a3bb21df4fe01') in 0.021255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_outhouse.prefab
+  artifactKey: Guid(569efa62f7d052e43bcf7dd944c6b19b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_outhouse.prefab using Guid(569efa62f7d052e43bcf7dd944c6b19b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8adb2b07fe1cca3ea125fa26a06e6eec') in 0.020066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_orange_01.prefab
+  artifactKey: Guid(e0396297d79e008478c887c661c8da87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_orange_01.prefab using Guid(e0396297d79e008478c887c661c8da87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2766d01da4b3c3ef40029b8d6d5e8695') in 0.019915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_sign_03.fbx
+  artifactKey: Guid(899da0edd4b197c409a79789a3f73fbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_sign_03.fbx using Guid(899da0edd4b197c409a79789a3f73fbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8968fef2fa0b3621e2822f90507a141') in 0.028045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_body_v06_02.fbx
+  artifactKey: Guid(8cf5119ef450ed8429a38c3a73485474) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_body_v06_02.fbx using Guid(8cf5119ef450ed8429a38c3a73485474) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f6e26ce3d6017f864b9a28db8187f4a') in 0.025273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_mailbox.fbx
+  artifactKey: Guid(4604a246a667e01429c7f698b22713b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_mailbox.fbx using Guid(4604a246a667e01429c7f698b22713b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e718d8bf166f8da1f491054833d0a672') in 0.025637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_sausage_05.prefab
+  artifactKey: Guid(ff116254e5b5bef48b1ed1d3699a3e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_sausage_05.prefab using Guid(ff116254e5b5bef48b1ed1d3699a3e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3761165d686ae40838ce5f49d7fa474f') in 0.020330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantastic Village Pack/materials/M_wood_planks_01.mat
+  artifactKey: Guid(36dc6284857fb0148a44c7b170d5cc6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/materials/M_wood_planks_01.mat using Guid(36dc6284857fb0148a44c7b170d5cc6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2780dbb510b61f3ba16d8baea759561') in 0.026998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_beam_small_v02_02.prefab
+  artifactKey: Guid(83940269eb84bea4bac252b774f7eca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_beam_small_v02_02.prefab using Guid(83940269eb84bea4bac252b774f7eca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '64daa6724d84b2bf53fa3b78989c7414') in 0.024494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_bridge_wood_03.prefab
+  artifactKey: Guid(c0bab4a8a82f1bc40bd7342a6b35dc06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_bridge_wood_03.prefab using Guid(c0bab4a8a82f1bc40bd7342a6b35dc06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '654a214ddfcb8a0d87c4bb57205e1c99') in 0.023242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_body_v04_Collision.fbx
+  artifactKey: Guid(b2eba2fd58d0ea14f902f0fd7e2e5ef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_body_v04_Collision.fbx using Guid(b2eba2fd58d0ea14f902f0fd7e2e5ef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f09133313c31c688af37065f560c3b9') in 0.024956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_waterwheel_construct_Collision.fbx
+  artifactKey: Guid(f6d40b3ba96542243a5cd42282f1cdb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_waterwheel_construct_Collision.fbx using Guid(f6d40b3ba96542243a5cd42282f1cdb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81a531c5f19a783ad3975c6334ab6620') in 0.030753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_meat_10.prefab
+  artifactKey: Guid(550680d45c82ac9448b4c4cad281a725) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_meat_10.prefab using Guid(550680d45c82ac9448b4c4cad281a725) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4b28fe19e4e41fb9aef56afce738cdc') in 0.018003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_coffin.fbx
+  artifactKey: Guid(4290c47af0056cc4690168fac3a59050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_coffin.fbx using Guid(4290c47af0056cc4690168fac3a59050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '661aabba1c6766680c588c9b4f8ff0ca') in 0.028942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_treetrunk_04.prefab
+  artifactKey: Guid(accd3985c8454a54199ab2589ec45c56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_treetrunk_04.prefab using Guid(accd3985c8454a54199ab2589ec45c56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a4bb646ffa02bcad5640eebdc76a2eb') in 0.017888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_bread_04.fbx
+  artifactKey: Guid(147789f2c3d7149468f07d250d897d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_bread_04.fbx using Guid(147789f2c3d7149468f07d250d897d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e70e2090d6cbb786442938a1af1cb74') in 0.026586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_PLANT_pot_v5_01.prefab
+  artifactKey: Guid(f91da038dabf5eb42a3aac7f367c1e91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_PLANT_pot_v5_01.prefab using Guid(f91da038dabf5eb42a3aac7f367c1e91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5dcff8df388fafab8cfdd1dfc6e7a231') in 0.023731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_flag_02.fbx
+  artifactKey: Guid(bc167d4539f852441b75ab93baff2b53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_flag_02.fbx using Guid(bc167d4539f852441b75ab93baff2b53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c898c9756fd1e8d27f8843af663029e9') in 0.026323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_PROP_foundation_wood_01_Collision.fbx
+  artifactKey: Guid(cf0d65d439654cb4990565cc1d4b1199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_PROP_foundation_wood_01_Collision.fbx using Guid(cf0d65d439654cb4990565cc1d4b1199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b48235e0257674ae45292482f6bee71c') in 0.025720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_streetlamp_v02_01.prefab
+  artifactKey: Guid(4b1c95ef468f0ad42b07857ca0836f4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_streetlamp_v02_01.prefab using Guid(4b1c95ef468f0ad42b07857ca0836f4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '84a64e1ada7397514889fce594153710') in 0.024742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_stairs_v03_v2_Collision.fbx
+  artifactKey: Guid(6e966eccd9adc9d4ca3864458931b241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_stairs_v03_v2_Collision.fbx using Guid(6e966eccd9adc9d4ca3864458931b241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f666396ae2e51b05f8b0fed973007e7e') in 0.026015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_grapes_02.prefab
+  artifactKey: Guid(b7356e768dce08c45ae75990af0078fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_grapes_02.prefab using Guid(b7356e768dce08c45ae75990af0078fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '295247d5f48f8482d504afce289f2dd2') in 0.020479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings/P_BLD_house_01.prefab
+  artifactKey: Guid(95faf56cb7779194d8e7f31984ca12ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings/P_BLD_house_01.prefab using Guid(95faf56cb7779194d8e7f31984ca12ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3959c2b7c56b77f6d1c96d58fb32e74d') in 0.015208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_chimney_v01_02.prefab
+  artifactKey: Guid(5abd624e156dce94793db530ca1cbe27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_chimney_v01_02.prefab using Guid(5abd624e156dce94793db530ca1cbe27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '25bdc670c7f6e13cf21a063f14baeab6') in 0.025017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_table_01.prefab
+  artifactKey: Guid(8819a1032981b1a43932629879ba59a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_table_01.prefab using Guid(8819a1032981b1a43932629879ba59a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79edaa3c9f180f4ff3ad1475fdc639a7') in 0.021273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/environment/P_ENV_TREE_village.prefab
+  artifactKey: Guid(923c070ea6db0804d939eac729895388) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/environment/P_ENV_TREE_village.prefab using Guid(923c070ea6db0804d939eac729895388) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70c32808982484068e9665671f5ee958') in 0.016402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_meat_06.fbx
+  artifactKey: Guid(f9130feb7628e514ca1901e7a03837b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_meat_06.fbx using Guid(f9130feb7628e514ca1901e7a03837b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6a10d942f3c31f6cd7f57a1ef6abf63') in 0.022707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_sack_09.prefab
+  artifactKey: Guid(1eb68f1e6d92a2f42bff27870237180a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_sack_09.prefab using Guid(1eb68f1e6d92a2f42bff27870237180a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '10c3261a2c44c26bd948fe563086a5b5') in 0.014638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_stone_01.fbx
+  artifactKey: Guid(05b746327ead23a498890b33a089a8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_stone_01.fbx using Guid(05b746327ead23a498890b33a089a8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7f5b01735631b29f1c24145508f09cb3') in 0.025589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_bottle_04.prefab
+  artifactKey: Guid(5c7cb65fdec6a0140a2f04a921b9c0dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_bottle_04.prefab using Guid(5c7cb65fdec6a0140a2f04a921b9c0dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19430a986c564369613cf872bee787a2') in 0.017679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_stairs_v03_v1.prefab
+  artifactKey: Guid(e5cda08924b13654aa0a4028b8edc85b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_stairs_v03_v1.prefab using Guid(e5cda08924b13654aa0a4028b8edc85b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ffcf8227d265f9d7d980cbb54adee2c') in 0.020621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/materials/M_wood_06.mat
+  artifactKey: Guid(0e2e5ed813f66674da9739a96375ef7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/materials/M_wood_06.mat using Guid(0e2e5ed813f66674da9739a96375ef7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dbc4fade025d90ce3ee85a601fdb68ad') in 0.015126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_window_v08_02.prefab
+  artifactKey: Guid(54b9ccbe4b2274040862cf3d6a8c1f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_window_v08_02.prefab using Guid(54b9ccbe4b2274040862cf3d6a8c1f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '755c4c6d370f19818668b1d3fa43cc50') in 0.022001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_body_add_v03_01.fbx
+  artifactKey: Guid(909dad1b56eb0e24d85a8ae2e28ee021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_body_add_v03_01.fbx using Guid(909dad1b56eb0e24d85a8ae2e28ee021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54be39c5559da117e72a5a39035fdb16') in 0.025619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_body_v02_01.prefab
+  artifactKey: Guid(16ec2b07ddaebba42a9108f7fa3e96a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_body_v02_01.prefab using Guid(16ec2b07ddaebba42a9108f7fa3e96a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e4b49730ef723910dc5bdaa9490816e') in 0.021747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_waterwheel_Collision.fbx
+  artifactKey: Guid(28081338fbf7d4b47a16e4c07f728c89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_waterwheel_Collision.fbx using Guid(28081338fbf7d4b47a16e4c07f728c89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28d6284f9538893fb305e0762ae0e9da') in 0.025476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_PROP_watchtower_wood_01_Collision.fbx
+  artifactKey: Guid(bc9fdcd592b33ae488df9c475e44a79f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_PROP_watchtower_wood_01_Collision.fbx using Guid(bc9fdcd592b33ae488df9c475e44a79f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cafa378991eea184ac4c31ca04a6b47b') in 0.023200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_railing_v02_02.fbx
+  artifactKey: Guid(65996118922782549aa448dfe16efed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_railing_v02_02.fbx using Guid(65996118922782549aa448dfe16efed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '01e0db7d2d19b97b48f01bda9792bba3') in 0.027894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_beam_small_v05_01.prefab
+  artifactKey: Guid(b6724537c545bf3479f774c7327b9509) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_beam_small_v05_01.prefab using Guid(b6724537c545bf3479f774c7327b9509) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ebce7c46f5abf587c4a69308b9876ad') in 0.026117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_spikes_v01_01.prefab
+  artifactKey: Guid(83cf86418f2a00043887ab8c9a414a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_spikes_v01_01.prefab using Guid(83cf86418f2a00043887ab8c9a414a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4fffd4f326eb4d9e2e5e8c8b752f48af') in 0.019543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_wood_planks_02_BC.png
+  artifactKey: Guid(896555136735b4c43ad8aa4bea8cc747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_wood_planks_02_BC.png using Guid(896555136735b4c43ad8aa4bea8cc747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b5891dc41b049b5434f85ef6b7a7b81a') in 0.025196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_outhouse.fbx
+  artifactKey: Guid(6644a0c57486d194c871d7ea27ddc5d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_outhouse.fbx using Guid(6644a0c57486d194c871d7ea27ddc5d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '951e3ed7247dc38ee67b9b89eec8e339') in 0.031336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_wall_wood_stairs_01.fbx
+  artifactKey: Guid(41503a51baeaa6149b8deb8225130596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_wall_wood_stairs_01.fbx using Guid(41503a51baeaa6149b8deb8225130596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '12d3ae0e60d1c310488c7e575a204882') in 0.022089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_body_add_v02_01.fbx
+  artifactKey: Guid(fc3122e21b6460845ad677b961eff857) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_body_add_v02_01.fbx using Guid(fc3122e21b6460845ad677b961eff857) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '833f5dc8e062daba2a242e8c78388bb9') in 0.024321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_spikes_v01_03.fbx
+  artifactKey: Guid(ec63bb49ead35ee41b1f1893514f08f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_spikes_v01_03.fbx using Guid(ec63bb49ead35ee41b1f1893514f08f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e456810ecfbb3656ce0ee8df0fe55bb5') in 0.032656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_bowl_wood_05.fbx
+  artifactKey: Guid(32a4466a1a4483846a7df344f2c79559) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_bowl_wood_05.fbx using Guid(32a4466a1a4483846a7df344f2c79559) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60e1a5dd931f027bdc57a40be34742f8') in 0.025661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_chili_04.prefab
+  artifactKey: Guid(500b91dd5cdb70b44a635c80af0b0834) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_chili_04.prefab using Guid(500b91dd5cdb70b44a635c80af0b0834) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7a4b575cc49fa2c209831415bf19ae6f') in 0.017203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_hay_02.fbx
+  artifactKey: Guid(9d0a03a99333bae4ca52950ff755c94e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_hay_02.fbx using Guid(9d0a03a99333bae4ca52950ff755c94e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91db11a9e5064544a27aa529c5d37543') in 0.026451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_market_v03_01.prefab
+  artifactKey: Guid(ffd9b880ab509864d835b5526929052a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_market_v03_01.prefab using Guid(ffd9b880ab509864d835b5526929052a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b718503d075097696614acf37d27a3d3') in 0.027929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_beam_small_v03_Collision.fbx
+  artifactKey: Guid(d4280b48735ed1841932ad6c489befa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_beam_small_v03_Collision.fbx using Guid(d4280b48735ed1841932ad6c489befa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '897ab1012b2f20eb51f44d0e5bd3a862') in 0.027354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_banana_02.prefab
+  artifactKey: Guid(bc8728bef4cf65442aa6513155592fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_banana_02.prefab using Guid(bc8728bef4cf65442aa6513155592fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'edf905a5b5e20165482ebdac4d0ee406') in 0.016836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/terrain_data/TerrainData_18.1.asset
+  artifactKey: Guid(e056a375ba298b845b6a8d90a36c1eaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/terrain_data/TerrainData_18.1.asset using Guid(e056a375ba298b845b6a8d90a36c1eaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b7d4d914af01b7c9409911c24056d685') in 0.029288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_metal_02_BC.png
+  artifactKey: Guid(8a88d659056bd0c44a4958f8912dae33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_metal_02_BC.png using Guid(8a88d659056bd0c44a4958f8912dae33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5658f502bd287c355b22ea28bfdc8c82') in 0.023103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_mango_01.fbx
+  artifactKey: Guid(a434c952c0f5cbf43be441fc25349776) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_mango_01.fbx using Guid(a434c952c0f5cbf43be441fc25349776) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '379580f18f51dcac74e061d51f31b9e8') in 0.026084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/scenes
+  artifactKey: Guid(75db42938fa6cb645b983ed272677593) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/scenes using Guid(75db42938fa6cb645b983ed272677593) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '810542710681fee0a61d5f51ca8be5ac') in 0.008974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/terrain_data/TerrainData_02.1.asset
+  artifactKey: Guid(aeb54c2321636d841983eb3923209336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/terrain_data/TerrainData_02.1.asset using Guid(aeb54c2321636d841983eb3923209336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dbef0c7e5757087a7ae15a1d6c6d60d9') in 0.024621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_PLANT_pot_v3_03.prefab
+  artifactKey: Guid(29755488000a23140a62b8fcd31f155a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_PLANT_pot_v3_03.prefab using Guid(29755488000a23140a62b8fcd31f155a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aaee604808a9db66b9ce5371e3bd0383') in 0.023293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_BLD_stairs_v04_v1_Collision.fbx
+  artifactKey: Guid(09992060fae5e4d42b253335ef211818) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_BLD_stairs_v04_v1_Collision.fbx using Guid(09992060fae5e4d42b253335ef211818) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dfe17658db71e02d938e4e21951b7751') in 0.026269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_lantern_03.fbx
+  artifactKey: Guid(30df0fd027bb980409250a0565b49cdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_lantern_03.fbx using Guid(30df0fd027bb980409250a0565b49cdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3510dbfc733fd3e2def2027e64446263') in 0.033239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_gold_BC.png
+  artifactKey: Guid(1109eec5269965b469be3710bfb3b4b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_gold_BC.png using Guid(1109eec5269965b469be3710bfb3b4b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f0e9bb6961f9bbdd4702812c9d3bc20b') in 0.026429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_brazier_05.prefab
+  artifactKey: Guid(c8e43199aee48944f8ac29cdfc00d450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_brazier_05.prefab using Guid(c8e43199aee48944f8ac29cdfc00d450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '67a68902d04e5ca9a7cfbb2a0c12c33e') in 0.019712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_bread_01.prefab
+  artifactKey: Guid(ea150aeccfa1c9e44b1eb098c23faa4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_bread_01.prefab using Guid(ea150aeccfa1c9e44b1eb098c23faa4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '076307d86275a9557f41c66752749ec3') in 0.018981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_beam_small_v04_02.prefab
+  artifactKey: Guid(7374fdae9627647429a11e5ccfc26427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_beam_small_v04_02.prefab using Guid(7374fdae9627647429a11e5ccfc26427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b2d34c135236645403c19fab2973d0d') in 0.022072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_stairs_v04_v2.prefab
+  artifactKey: Guid(9b01f20919686ee499be45958bcf5056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_stairs_v04_v2.prefab using Guid(9b01f20919686ee499be45958bcf5056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ace5bab9045fefdabde86e075bb836b') in 0.021838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_balcony_v02_01.prefab
+  artifactKey: Guid(8345b7134454baf49b0af2da756e0a40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_balcony_v02_01.prefab using Guid(8345b7134454baf49b0af2da756e0a40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe343d301a3e4f905fbdc309fd8a4bc7') in 0.024070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_rooftiles_04_BC.png
+  artifactKey: Guid(16a524a11d79e1f41a0af8611e106f73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_rooftiles_04_BC.png using Guid(16a524a11d79e1f41a0af8611e106f73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7acf5816736ad9adace02147442fc93') in 0.024073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_planks_01.prefab
+  artifactKey: Guid(6567704810e833b4699ec28628e3f7b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_planks_01.prefab using Guid(6567704810e833b4699ec28628e3f7b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f9f3e6e8a9f355d663d57723a3cd5e3') in 0.017808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_cheese_03.fbx
+  artifactKey: Guid(6e1fb6cf72248354eaedd8e4f568176d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_cheese_03.fbx using Guid(6e1fb6cf72248354eaedd8e4f568176d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d584bf058b3378f46c09d85231a810e') in 0.025850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_PLANT_pot_v3_02.prefab
+  artifactKey: Guid(c0bfc954a52419c4abbb607442fe8c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_PLANT_pot_v3_02.prefab using Guid(c0bfc954a52419c4abbb607442fe8c70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4fbb9635a39c05fd99c9dde1758b3a1d') in 0.022779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/terrain_data/TerrainData_09.1.asset
+  artifactKey: Guid(94ab81ea9a791f544b1f53c3b78b49db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/terrain_data/TerrainData_09.1.asset using Guid(94ab81ea9a791f544b1f53c3b78b49db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '359c5a262a2379b0f945854c5e2344c2') in 0.024193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_flag_06.prefab
+  artifactKey: Guid(c1bc80436480c1843848313538b76041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_flag_06.prefab using Guid(c1bc80436480c1843848313538b76041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c5152e8b73bf3654c272ee345d1face2') in 0.022201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_orange_01.fbx
+  artifactKey: Guid(d88f4dc7d2164fc4aa4251e648f060c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_orange_01.fbx using Guid(d88f4dc7d2164fc4aa4251e648f060c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '471ee5109f5a24e7429e9fca622873bc') in 0.026177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_PROP_wall_wood_stairs_01_Collision.fbx
+  artifactKey: Guid(048ba5225c1225b43931cf6558db344f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_PROP_wall_wood_stairs_01_Collision.fbx using Guid(048ba5225c1225b43931cf6558db344f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ece0c89a45dcd1aab053d350dd3165a7') in 0.027542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_orange_02.prefab
+  artifactKey: Guid(add9cb89020fa6a4992bd7b89315132f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_orange_02.prefab using Guid(add9cb89020fa6a4992bd7b89315132f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f8c14855adb1c1cf2a007467e783c6a') in 0.016048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_body_v04_02.fbx
+  artifactKey: Guid(74b1add37d9213345ac25fd1dcdfcb5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_body_v04_02.fbx using Guid(74b1add37d9213345ac25fd1dcdfcb5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d521de1f9822304a1e70b731fa6f1e5') in 0.027456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_potato_03.fbx
+  artifactKey: Guid(6ca2af4773e14c74ca9abb42eb555244) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_potato_03.fbx using Guid(6ca2af4773e14c74ca9abb42eb555244) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4394ff0919aad639fc40e01d211ab72') in 0.025292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_window_v04_01.prefab
+  artifactKey: Guid(8ed85e9d2f847d34195c997d5846c78a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_window_v04_01.prefab using Guid(8ed85e9d2f847d34195c997d5846c78a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1d3b2e29c84c3ff22040076da8cae9c') in 0.022971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_stairs_wood_02.fbx
+  artifactKey: Guid(f78c3f4e79e22da45878e1aeaa8105b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_stairs_wood_02.fbx using Guid(f78c3f4e79e22da45878e1aeaa8105b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2433d0079579b242553ccbc151f539e') in 0.024793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_wood_06_N.png
+  artifactKey: Guid(f03bbe062f2e393419cbc63eb3c8bce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_wood_06_N.png using Guid(f03bbe062f2e393419cbc63eb3c8bce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e221044094a6c7954c35b6101087d232') in 0.022256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_fence_door_gate.fbx
+  artifactKey: Guid(e4f02d9adee18ae4eab62ecfb419c60a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_fence_door_gate.fbx using Guid(e4f02d9adee18ae4eab62ecfb419c60a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5ceae5d3b96ca5ef1a06a97e6025f4be') in 0.030367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_planks_01.fbx
+  artifactKey: Guid(4ca055b0a4ae5984db9537106a9cb50c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_planks_01.fbx using Guid(4ca055b0a4ae5984db9537106a9cb50c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3de4926d4793939c9f645cc2bbf47864') in 0.022133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_paper_02.fbx
+  artifactKey: Guid(4925b405b09083e40b14dd6d45c3e8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_paper_02.fbx using Guid(4925b405b09083e40b14dd6d45c3e8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4d49569bd4b9e76be180e0fc3a3a649') in 0.023092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_wall_wood_post_03.fbx
+  artifactKey: Guid(d2b4e7bd349b0c34094777c0f08df346) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_wall_wood_post_03.fbx using Guid(d2b4e7bd349b0c34094777c0f08df346) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d18893bea2bc795f32b13efa10e1896') in 0.026400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_bottle_02.prefab
+  artifactKey: Guid(757c9ef934ea29e4cae13cd8554da777) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_bottle_02.prefab using Guid(757c9ef934ea29e4cae13cd8554da777) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d23a5403a0cb07453a6beb7d8944892') in 0.015186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_beam_big_v03_01.prefab
+  artifactKey: Guid(475d19c2c865cd94f9cf742c94dbc695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings_modules/P_BLD_beam_big_v03_01.prefab using Guid(475d19c2c865cd94f9cf742c94dbc695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'efdc957bcd290364829229afb4ff8818') in 0.019717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_window_v01_01.fbx
+  artifactKey: Guid(5cc6d791c924f5c4d8ecabbdf37a0168) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_window_v01_01.fbx using Guid(5cc6d791c924f5c4d8ecabbdf37a0168) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98e387bc19cbd57294bc475795d45f01') in 0.026660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_clothesline_02.fbx
+  artifactKey: Guid(019f9e1a3f65eac43a711427fd1101ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_clothesline_02.fbx using Guid(019f9e1a3f65eac43a711427fd1101ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd3fc874349581cee73f4313850f9c6c') in 0.027017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_stone_03.prefab
+  artifactKey: Guid(45e139b210d606145bd379d36d23beed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_stone_03.prefab using Guid(45e139b210d606145bd379d36d23beed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '88a4344cbec8a5bb26aa126d9eb958a9') in 0.019907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_springonion.prefab
+  artifactKey: Guid(d1abbcb0607f73149a117335d027affb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_springonion.prefab using Guid(d1abbcb0607f73149a117335d027affb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61425325ff286776b4506fb3e90d4597') in 0.018718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_ENV_TERRAIN_grass_01_BC.png
+  artifactKey: Guid(fba493e2efaa63846a1e63b7891d610b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_ENV_TERRAIN_grass_01_BC.png using Guid(fba493e2efaa63846a1e63b7891d610b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0acb1d0fc5e09928682eae028006417') in 0.023160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/buildings/P_BLD_house_05.prefab
+  artifactKey: Guid(ba43096d063f9e141bc66d23a6aad4b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/buildings/P_BLD_house_05.prefab using Guid(ba43096d063f9e141bc66d23a6aad4b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5dbc5ba3f6130a43b6903ea54e3c9734') in 0.022524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 168
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/3d/collision/SM_PROP_hay_05_Collision.fbx
+  artifactKey: Guid(fa80713da7f267d419633722cb8a17e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/collision/SM_PROP_hay_05_Collision.fbx using Guid(fa80713da7f267d419633722cb8a17e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17a077e4ee17d137b6595b2e47a0204f') in 0.028360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Village Pack/materials/M_wood_detail_01.mat
+  artifactKey: Guid(591b76ffa2cecba418ccc6aedafb0bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/materials/M_wood_detail_01.mat using Guid(591b76ffa2cecba418ccc6aedafb0bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4f7feb6209e2bb885deeb4c55a3628c') in 0.013727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantastic Village Pack/terrain_data
+  artifactKey: Guid(d3f470a7175c4d346ba6553bb6ac7798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/terrain_data using Guid(d3f470a7175c4d346ba6553bb6ac7798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0e4e93ee0e6409170aa140df5eb125a') in 0.009856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_cucumber_02.prefab
+  artifactKey: Guid(ebd0c806c149e89408eb69040dc1120b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_cucumber_02.prefab using Guid(ebd0c806c149e89408eb69040dc1120b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f42b426ca9c10fcbac8ba88a694af5d3') in 0.021633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_body_v01_02.fbx
+  artifactKey: Guid(ec26271b43b5cc84e939875162b23d7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_body_v01_02.fbx using Guid(ec26271b43b5cc84e939875162b23d7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b96ab57efac90342e9c9670865d0217') in 0.025020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fantastic Village Pack
+  artifactKey: Guid(7435c566dcac9b54b97f0206948893d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack using Guid(7435c566dcac9b54b97f0206948893d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b093a411e4355fc376afab94e6d98ca8') in 0.010020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_window_v02_01.fbx
+  artifactKey: Guid(33c52401bb48ba6489c8d0ccb6b59671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_window_v02_01.fbx using Guid(33c52401bb48ba6489c8d0ccb6b59671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76014ce4e9e6bd40c91ac5203afd5be6') in 0.030850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_egg_01.prefab
+  artifactKey: Guid(b726332c84a54b145b86b07829497c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/prefabs/props/P_PROP_food_egg_01.prefab using Guid(b726332c84a54b145b86b07829497c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd00258f1eac70a969421efdc3847ce97') in 0.015897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_beam_small_v05_01.fbx
+  artifactKey: Guid(0d5151d166bea8b4fafa4ca40b3a1259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_beam_small_v05_01.fbx using Guid(0d5151d166bea8b4fafa4ca40b3a1259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a51540721b55d590a6f3be8cfdad1c7') in 0.024422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/2d/textures/T_wood_06_BC.png
+  artifactKey: Guid(9305e1e61e690f6429bcff532ffde176) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/2d/textures/T_wood_06_BC.png using Guid(9305e1e61e690f6429bcff532ffde176) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd30f1972b8d51453c5f4854014543916') in 0.020504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v4_01.fbx
+  artifactKey: Guid(6c88797abf5bb81499d86ab0fe8461b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_PLANT_pot_v4_01.fbx using Guid(6c88797abf5bb81499d86ab0fe8461b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b68ab67a4f700ef40232e5b85921076d') in 0.032161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_knife_02.fbx
+  artifactKey: Guid(88e5be73a5105924795500931cf25eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_knife_02.fbx using Guid(88e5be73a5105924795500931cf25eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1395c4c3e3d10941ee939632fca33ca6') in 0.024365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_wall_stone_small_04.fbx
+  artifactKey: Guid(ead15b2428f6ece44afcb28754e6d443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_wall_stone_small_04.fbx using Guid(ead15b2428f6ece44afcb28754e6d443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2b8466ec4a47690b773f48729e26f9d') in 0.027136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Village Pack/3d/props/SM_PROP_food_meat_10.fbx
+  artifactKey: Guid(ee41fe55b716316408bd10ebfe6afe0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/props/SM_PROP_food_meat_10.fbx using Guid(ee41fe55b716316408bd10ebfe6afe0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4caeed34b24071c5e0ebe104b5abfade') in 0.025714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fantastic Village Pack/3d/buildings/SM_BLD_beam_small_v02_02.fbx
+  artifactKey: Guid(5e8cabffdb16e9f4696dfd5302fb89d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantastic Village Pack/3d/buildings/SM_BLD_beam_small_v02_02.fbx using Guid(5e8cabffdb16e9f4696dfd5302fb89d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4d36e98be61f3bfc8fcaffb24083379e') in 0.022416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

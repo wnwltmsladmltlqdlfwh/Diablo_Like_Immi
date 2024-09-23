@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEditor.PackageManager.Requests;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -27,7 +28,7 @@ public class UI_Button : UI_PopUp
         ItemIcon,
     }
 
-    void Start()
+    public override void Init()
     {
         Bind<Button>(typeof(Buttons));
         Bind<Text>(typeof(Texts));
@@ -36,11 +37,13 @@ public class UI_Button : UI_PopUp
 
         Get<Text>((int)Texts.ScoreText).text = "Bind Text";
 
-        GetButton((int)Buttons.PointButton).gameObject.AddUIEvent(OnButtonClick);
+        GetButton((int)Buttons.PointButton).gameObject.BindEvent(OnButtonClick);
 
         GameObject go = GetImage((int)Images.ItemIcon).gameObject;
 
-        AddUIEvent(go, (PointerEventData data) => { go.transform.position = data.position; }, Define.UIEvent.Drag);
+        BindEvent(go, (PointerEventData data) => { go.transform.position = data.position; }, Define.UIEvent.Drag);
+
+        base.Init();
     }
 
     public void OnButtonClick(PointerEventData data)
