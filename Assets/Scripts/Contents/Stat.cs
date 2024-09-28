@@ -45,8 +45,6 @@ public class Stat : MonoBehaviour
             Hp = 0;
             OnDead(attacker);
         }
-
-
     }
 
     protected virtual void OnDead(Stat attacker)

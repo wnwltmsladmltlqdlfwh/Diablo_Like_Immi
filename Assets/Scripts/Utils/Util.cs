@@ -49,8 +49,6 @@ public class Util
             {
                 if(string.IsNullOrEmpty(name) || Component.name == name)
                     return (T)Component;
-
-
             }
         }
 

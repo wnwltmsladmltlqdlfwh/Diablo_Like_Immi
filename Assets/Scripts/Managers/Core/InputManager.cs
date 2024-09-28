@@ -25,7 +25,7 @@ public class InputManager
                 if (!_pressed)
                 {
                     MouseAction.Invoke(Define.MouseEvent.PointerDown);
-                    _pressTime = Time.time;
+                    _pressTime = Time.time; 
                 }
                 MouseAction.Invoke(Define.MouseEvent.Press);
                 _pressed = true;
